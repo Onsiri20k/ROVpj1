@@ -1,0 +1,4 @@
+src/admin/vendor
+src/api/vendor
+src/api/.env
+src/html/node_modules
