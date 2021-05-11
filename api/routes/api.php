@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 // Route::middleware('auth:api')->get('/user', function (Request $request) {
 //     return $request->user();
 // });
-Route::get('/info', function () {
-    return "this is api";
+Route::get('info', function () {
+    return "api";
 });
