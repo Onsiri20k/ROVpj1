@@ -14,14 +14,14 @@
     ```
     docker exec -it esports_rov_in_th_web /bin/bash
     cd /var/www/esports.rov.in.th/src/api
-    composer update
     cp .env.example .env
     php artisan key:generate
 
     cd /var/www/esports.rov.in.th/src/admin
-    composer update
     cp .env.example .env
     php artisan key:generate
+
+    // run composer update outside docker
     ```
 
 5. Setup your hosts file with **test.esports.rov.in.th**, **test.esports.rov.in.th** and **admin.esports.rov.in.th**
