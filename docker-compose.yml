@@ -14,7 +14,7 @@ services:
             DEV_DB_PORT: 3306
             DEV_DB_USER: root
             DEV_DB_PASSWORD: root
-            DEV_DB_NAME: esporst_rov_in_th
+            DEV_DB_NAME: esports_rov_in_th
         links:
             - redis:redis
             - mysql:mysql
